@@ -40,7 +40,7 @@ The environment is built into a rack with structured cabling, patch panels, and 
   
 - **Storage**
   - Avid 18-bay chassis with mixed SAS/SATA disks
-     ![18-bay chassis](/assets/photos/Storage1.jpg)
+     ![18-bay chassis](/assets/photos/Storage1.png)
   - EqualLogic-backed storage presented to Proxmox and other services
     ![backed storage presented to Proxmox and other services](/assets/photos/Storage2.jpg)
 - **Network & Management**
