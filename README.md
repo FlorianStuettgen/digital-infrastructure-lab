@@ -9,7 +9,7 @@
 > - Implement ASA/SonicWall firewalls, VPNs, IDS/IPS (Suricata/SELKS), and centralized logging.  
 > - Document architectures, runbooks, and change management so someone else could understand, rebuild, or operate the environment.
 >   
-> I use this lab to prototype security, monitoring, and operations ideas that I later bring into my professional work.
+I use this lab to prototype security, monitoring, and operations ideas that I later bring into my professional work.
 
 It combines:
 
