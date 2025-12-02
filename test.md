@@ -1,6 +1,6 @@
 # Digital Infrastructure Lab
 <p align="left">
-<img src="/assets/photos/test2.jpeg" alt="Full rack" width="72%"/>
+<img src="/assets/photos/test2.jpeg" alt="Full rack" width="74%"/>
 </p>
 
 <p align="left">
