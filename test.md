@@ -1,18 +1,40 @@
-# Digital Infrastructure Lab
-<p align="left">
-<img src="/assets/photos/test2.jpeg" alt="Full rack" width="75%"/>
-</p>
+# Digital Infrastructure Lab 🚀
 
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Lab-Active-brightgreen?style=for-the-badge&logo=proxmox&logoColor=white">
-    <img src="https://img.shields.io/badge/Lab-Active-brightgreen?style=for-the-badge&logo=proxmox&logoColor=white" alt="Active"/>
-  </picture>
-  <img src="https://img.shields.io/badge/Solo_Built-100%25-1182c3?style=for-the-badge&logo=github" alt="Solo"/>
-  <img src="https://img.shields.io/badge/Documentation-Overkill-ff8800?style=for-the-badge&logo=markdown&logoColor=white" alt="Docs"/>
-  <img src="https://img.shields.io/badge/Nerd_Factor-11/10-ff0066?style=for-the-badge&logo=dependabot" alt="Nerd"/>
-</p>
+<div align="center">
+  <img src="/assets/photos/test2.jpeg" alt="Full Enterprise Rack Setup" width="80%" style="border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.3);"/>
+</div>
 
+<div align="center" style="margin-top: 20px;">
+  <a href="https://github.com/yourusername/digital-infrastructure-lab" target="_blank">
+    <img src="https://img.shields.io/badge/Lab_Status-Active-brightgreen?style=flat-square&logo=proxmox&logoColor=white" alt="Lab Active"/>
+  </a>
+  <a href="https://github.com/yourusername/digital-infrastructure-lab/graphs/contributors" target="_blank">
+    <img src="https://img.shields.io/badge/Built_By-Solo_Developer-1182c3?style=flat-square&logo=github&logoColor=white" alt="Solo Built"/>
+  </a>
+  <a href="https://github.com/yourusername/digital-infrastructure-lab/wiki" target="_blank">
+    <img src="https://img.shields.io/badge/Documentation-Overkill-ff8800?style=flat-square&logo=markdown&logoColor=white" alt="Documentation Overkill"/>
+  </a>
+  <img src="https://img.shields.io/badge/Nerd_Factor-11%2F10-ff0066?style=flat-square&logo=dependabot&logoColor=white" alt="Nerd Factor"/>
+  <img src="https://img.shields.io/badge/Tech_Stack-Enterprise_Grade-0078d4?style=flat-square&logo=server&logoColor=white" alt="Enterprise Grade"/>
+  <img src="https://img.shields.io/badge/Security-Fort_Knox_Level-red?style=flat-square&logo=lock&logoColor=white" alt="Security Level"/>
+</div>
+
+<details>
+<summary><b>🔍 Quick Overview</b></summary>
+<p>
+This repository chronicles the design, build, and operation of a sophisticated Digital Infrastructure Lab, powered by real enterprise hardware. It's a playground for network topologies, security architectures, and cutting-edge DevOps practices—all isolated, meticulously documented, and engineered for realism.
+</p>
+</details>
+
+> [!IMPORTANT]  
+> **Enterprise-Ready Excellence**: Constructed on authentic hardware, managed with production-grade rigor, and documented with unparalleled depth for professional-grade insights.
+
+> [!NOTE]  
+> **Isolated Innovation Hub**: This lab operates in complete network isolation, serving as a safe environment to prototype, test, and refine complex infrastructures without real-world risks. Emojis like 🔒 and 🛡️ underscore our commitment to security and experimentation.
+
+<div align="center" style="margin-top: 20px; font-style: italic; color: #555;">
+  <em>"Where theory meets hardware in a symphony of packets and power."</em>
+</div>
 > [!IMPORTANT]
 > Built on real enterprise hardware, operated like production & documented like a religion.
 
