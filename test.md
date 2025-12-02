@@ -17,7 +17,7 @@
 > Built on real enterprise hardware, operated like production & documented like a religion.
 
 > [!NOTE]  
-> Proxmox • Cisco ASA • SonicWall • Suricata • SELKS • VLAN Zones • Honeypots • Runbooks • Zero config drift
+> The lab is isolated from production networks and is used to design, test, and operate realistic network and security topologies.
 
 ## At a Glance — December 2025
 
