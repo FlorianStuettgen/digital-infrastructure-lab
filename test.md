@@ -12,7 +12,9 @@
 </div>
 
 <summary><strong>Introduction</strong></summary>
-This repository details the architecture, implementation, and management of a dedicated digital infrastructure laboratory. Built on genuine enterprise hardware, it provides a secure, isolated environment for designing, testing, and refining network topologies, security measures, and operational frameworks.
+
+This repository details the architecture, implementation & management of a dedicated digital infrastructure laboratory. 
+Built on genuine enterprise hardware, it provides a secure, isolated environment for designing, testing, and refining network topologies, security measures, and Project Controls.
 
 > [!IMPORTANT]  
 > Engineered with production-level standards on authentic hardware, accompanied by exhaustive documentation to support professional development and portfolio enhancement.
