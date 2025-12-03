@@ -32,11 +32,10 @@ It provides a secure, isolated environment for designing, testing, and refining 
 </div>
 
 
-![System Diagram](assets/photos/diagram.svg)
-
 <div align="center" style="margin-bottom: 24px; font-style: italic; color: #555; font-size: 0.9em;">
   Expanded overview of lab components, including detailed specifications, roles, and operational status for a comprehensive snapshot.
 </div>
+
 
 <table style="width: 100%; max-width: 1200px; margin: 0 auto; border-collapse: separate; border-spacing: 0 12px; font-family: Arial, sans-serif;">
   <thead>
