@@ -21,7 +21,7 @@ I made this to showcase how enterprise-grade equipment, complex topologies, and 
 > Engineered with production-level standards and documentation on authentic enterprise-grade hardware.
 > Operated in complete isolation from production environments to enable risk-free experimentation with realistic scenarios.
 
-> [!WARNING]
+> [!IMPORTANT]
 > Data sanitized. Sensitive information, credentials, or real network details are excluded from this repo for OPSEC.
 
 
