@@ -28,12 +28,6 @@ This repository details the architecture, implementation, and management of a de
 
 ![System Diagram](assets/photos/diagram.svg)
 
-
-
-
-<img src="assets/photos/diagram.svg" alt="System Diagram" width="1000"/>
-
-
 <div align="center" style="margin-bottom: 24px; font-style: italic; color: #555; font-size: 0.9em;">
   Expanded overview of lab components, including detailed specifications, roles, and operational status for a comprehensive snapshot.
 </div>
