@@ -50,11 +50,11 @@ This lab serves as a hands-on playground for experimentation, learning, and proo
   Detailed notes, diagrams, and procedures ensuring all setups are transparent, reproducible, and verifiable.
 
 
-## At a Glance — Current as of December 2025
+## At a Glance as of December 2025
 
-<details>
+<details open>
 <summary><div align="center" style="margin-bottom: 24px; font-style: italic; color: #555; font-size: 0.9em;">
-  Expand to see an overview of lab components, including specifications, roles, and operational status for a snapshot.
+  Overview of lab components, including specifications, roles, and operational status for a snapshot.
 </summary>
 <table style="width: 100%; max-width: 1200px; margin: 0 auto; border-collapse: separate; border-spacing: 0 12px; font-family: Arial, sans-serif;">
   <thead>
@@ -134,36 +134,10 @@ The interplay here is complex, but charted here is a naive approach:
 <div align="left">
   <img src="https://github.com/FlorianStuettgen/digital-infrastructure-lab/blob/main/assets/photos/diagram.svg" alt="System Diagram" width="1000"/>
   <p><i>
-  System architecture showing compute, storage, and network topology. Application VMs run critical services on isolated VLANs, while honeypots and tar pits detect and slow threats. SaltStack orchestrates real-time network adjustments, moving VMs and
-  activating traps as needed. 
+  System architecture showing compute, storage, and network topology. Application VMs run critical services on isolated VLANs, while honeypots and tar pits detect and slow threats. 
+  SaltStack orchestrates real-time network adjustments, moving VMs and activating traps as needed. 
   LLM-driven analytics are reacting to the logs, anticipating attacks, and dynamically adjusting the network topology.</i></p>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Table of Contents
 
@@ -183,6 +157,7 @@ The interplay here is complex, but charted here is a naive approach:
 
 </details>
 
+
 ## Physical Platform —  
 
 <details open>
@@ -193,7 +168,7 @@ The interplay here is complex, but charted here is a naive approach:
 <img src="/assets/photos/Storage1.png" alt="Avid" loading="lazy" width="100%"/>
 </details>
 
-<details>
+<details open>
 <summary><strong>Network & OOB Management</strong></summary>
 <br>
 <img src="/assets/photos/switch.jpg" loading="lazy" width="100%"/>
@@ -202,7 +177,7 @@ The interplay here is complex, but charted here is a naive approach:
 <img src="/assets/photos/console1.jpg" loading="lazy" width="100%"/>
 </details>
 
-<details>
+<details open>
 <summary><strong>Security & SOC Node</strong></summary>
 <br>
 <img src="/assets/photos/sec1.jpg" loading="lazy" width="100%"/>
