@@ -133,8 +133,6 @@ The interplay here is complex, but charted here is a naive approach:
 
 </details>
 
-
-
 ## Logical Architecture & Zones
 
 | Zone       | Trust     | Color | Purpose                              |
@@ -146,21 +144,7 @@ The interplay here is complex, but charted here is a naive approach:
 | Honeypots  | Low       | Red   | Attack surface bait                  |
 | Guest      | Lowest    | Black | Untrusted devices                    |
 
-
-digital-infrastructure-lab/
-├── docs/                  # Architecture deep-dives & runbooks
-├── diagrams/              # Mermaid + exported Visio diagrams
-├── infra/                 # Sanitized ASA configs + Ansible samples
-├── runbooks/              # Change log, procedures, rollback plans
-└── assets/
-    └── photos/            # The rack beauty you’re enjoying right now
-Recommended starting point → docs/00_overview.md
-
-
-### Block 9 – Professional Impact (Portfolio Gold)
-
-``markdown
-## Professional Impact — This Is Portfolio Gold
+### Block 9 – Professional Impact 
 
 | Discipline                | Real-World Skills Demonstrated                                      |
 |---------------------------|---------------------------------------------------------------------|
@@ -169,9 +153,6 @@ Recommended starting point → docs/00_overview.md
 | SRE / Platform Engineering| Full-stack observability, reproducibility, runbook discipline       |
 | DevOps & Automation       | Ansible playbooks, config-as-code, documentation-as-code            |
 | Technical Leadership      | End-to-end ownership, systems thinking, risk-aware design          |
-
-> This single repository has replaced entire “homelab” sections on résumés.  
-> Recruiters and senior engineers stop scrolling when they land here.
 
 ## 100% Solo Operator
 
@@ -190,23 +171,3 @@ Every cable pulled, every ACL written, every diagram drawn, every line of Markdo
   <br><br>
   <a href="#digital-infrastructure-lab">Back to Top</a>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
