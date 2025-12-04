@@ -1,6 +1,4 @@
-<div align="center">
-  <strong style="font-size: 2rem;">Key Highlights</strong>
-</div>
+<h1 align="center"><strong>Key Highlights</strong></h1>
 
 
 <div align="center">
