@@ -17,7 +17,7 @@
 > Engineered with production-level standards and documentation on authentic enterprise-grade hardware.  
 
 > [!IMPORTANT]  
-> Data sanitized. Sensitive information, credentials, or real network details are **excluded** to maintain OPSEC.
+> Data sanitized. Sensitive information, credentials, or real network details are **obfuscated or excluded** to maintain OPSEC.
 
 ---
 
