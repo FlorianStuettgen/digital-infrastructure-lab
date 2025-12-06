@@ -1,167 +1,122 @@
-# EvoSec-Lab
-<div align="center">
-  <img src="/assets/photos/test2.jpeg" alt="Enterprise Rack Configuration" width="90%" style="border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25);"/>
+<div align="left">
+<img width="452" height="170" alt="ChatGPT Image Dec 5, 2025, 05_22_47 PM" src="https://github.com/user-attachments/assets/c35d9192-3736-40ba-9d59-d2660507c0c2" />
+</div> 
+
+---
+
+##  Welcome to EvoSec
+
+EvoSec is a cybersecurity research lab designed for experimentation and operational analysis. The platform brings together honeypots, intrusion detection, automation, and monitoring into a unified environment, enabling practical testing and innovation. 
+
+This wiki provides an overview of EvoSec’s architecture, components, and applications.
+
+---
+
+##  Key Features 
+
+| Feature | Description |
+|:------:|:-----------|
+| **Enterprise-Grade Infrastructure** | High-performance servers, storage, and networking provide a professional-grade lab for advanced research and experimentation. |
+| **Segregated Lab Zones** | VLANs create isolated spaces for honeypots, tar pits, DMZs, and management networks, enabling safe and flexible testing. |
+| **AI-Driven Automation** | Large language models orchestrate network, security, and lab operations in real time for rapid, intelligent responses. |
+| **Automated Workflows** | Pipelines streamline VM provisioning, software deployment, and configuration management at scale. |
+| **Full Observability** | Monitoring and dashboards for intrusion detection and log aggregation provide actionable insights across the environment. |
+| **Zero-Trust Security** | Compartmentalized VMs, automated threat response, and SOC integration enforce strict operational security. |
+
+
+---
+
+## Quick Navigation
+
+<div align="left">
+
+<details open>
+  <summary><strong>Jump to:</strong></summary>
+
+   [Architecture](Architecture) – Network design, trust zones, and top-level infrastructure  
+   [Hardware](Hardware) – Servers, storage, networking, and SOC devices  
+   [Software Stack](Software%20Stack) – Hypervisors, OS templates, orchestration, and monitoring tools  
+   [Network Topology](Network%20Topology) – VLANs, traffic flows, and dynamic orchestration  
+   [CI/CD & Automation](CI%2FCD%20%26%20Automation) – Pipelines, IaC, and LLM integration  
+   [Monitoring & Telemetry](Monitoring%20%26%20Telemetry) – Metrics, dashboards, and SOC workflow  
+   [Security Model](Security%20Model) – Zero-trust zones, isolation, and automated security policies  
+   [Use Cases](Use%20Cases) – Real-world applications and demonstrations  
+   [Roadmap](Roadmap) – Planned enhancements, expansions, and vision  
+   [Appendix](Appendix) – References, scripts, diagrams, and configuration notes
+
+</details>
+
 </div>
 
-<div align="center" style="margin-top: 16px;">
-  <img src="https://img.shields.io/badge/Status:-Active-brightgreen?style=for-the-badge&logo=proxmox&logoColor=white" alt="Lab Status"/>
-  <img src="https://img.shields.io/badge/Built:-Solo-blue?style=for-the-badge&logo=github&logoColor=white" alt="Built Solo"/>
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge&logo=github&logoColor=white" alt="MIT License"/>
-  <img src="https://img.shields.io/badge/Nerd_Factor:-11/10-pink?style=for-the-badge&logo=dependabot&logoColor=white" alt="Nerd Factor"/>
-  <img src="https://img.shields.io/badge/LinkedIn-Florian_Stuettgen-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+---
+
+## EvoSec Capabilities
+
+EvoSec provides a comprehensive environment for cybersecurity research experimentation and demonstration, from multi-VM experiments and containerized services to hypervisor snapshots for flexible and reproducible lab testing: 
+
+```mermaid
+graph LR
+    A["EvoSec-Lab Environment"] --> B["Multi-VM Experiments"]
+    A --> C["Containerized Services"]
+    A --> D["Hypervisor Snapshots"]
+
+    B --> E["Flexible Testing"]
+    C --> E
+    D --> E
+
+    E --> F["Reproducible Results"]
+```
+The platform integrates honeypots, tar pits, and IDS/IPS systems to enable controlled analysis of attacker behavior and threat research, while dynamic network orchestration allows subsecond-scale VLAN reconfigurations and automated containment, simulating complex operational scenarios. 
+
+AI-driven automation, Infrastructure-as-Code provisioning, and pipelines ensure seamless, scalable operations, while real-time dashboards, logging, and alerts provide complete observability and actionable insights. Designed with reproducibility and demonstration in mind, EvoSec-Lab serves as a professional and educational showcase of enterprise lab practices and research-grade workflows.
+
+---
+
+## Security First
+```mermaid
+graph TD
+    Core[Zero-Trust Core] --> VLAN[Segmented VLANs]
+    Core --> AI[AI Threat Detection]
+    Core --> SOC[SOC Monitoring]
+    Core --> Isolation[Traffic Isolation]
+
+    VLAN --> Outcome[Secure & Resilient Lab]
+    AI --> Outcome
+    SOC --> Outcome
+    Isolation --> Outcome
+```
+EvoSec is built around a multi-layered zero-trust security model, combining segmented VLANs, AI-driven threat detection, and SOC-integrated monitoring. Suspicious activity is automatically contained, and dynamic traffic isolation ensures the environment remains secure and resilient. This approach enables advanced experimentation without compromising operational safety.
+
+---
+
+## AI-Driven Automation, Observability & Telemetry
+
+EvoSec is a smart lab orchestration platform that leverages AI, machine learning, and DevOps to automate, optimize, and secure research environments. It continuously monitors system status and network traffic, providing real-time optimization, intelligent threat detection, and automated responses.
+Core capabilities include dynamic network configuration, adaptive honeypot-based deception, and event-driven anomaly detection, enabling researchers to study threats while maintaining integrity. 
+
+QubesOS is utilized for secure, compartmentalized experimentation and SaltStack for advanced configuration management and automated provisioning.
+Supporting automated deployment, updates, scaling, adaptive experiments, and predictive maintenance, the system enhances control and efficiency while AI automation ensures secure, responsive, and adaptable lab infrastructure.
+
+The system delivers granular observability across infrastructure, apps, and network by collecting metrics such as CPU, memory, storage I/O, and network traffic deep packet inspection for detailed analysis and interpretation. 
+
+<img width="725" height="543" alt="NSTscreen013" src="https://github.com/user-attachments/assets/004b0f48-6c84-426e-a043-5aa7d94da18f" />
+
+The ELK stack provides central logging for real-time event tracking and anomaly detection, while Grafana dashboards visualize system and security status.
+SOC integration enables continuous monitoring, advanced threat detection, and prompt response to abnormal activities. 
+By bringing together data from multiple sources, EvoSec turns raw information into actionable insights, improving operational efficiency and maintaining strong security.
+
+![Untitled](https://github.com/user-attachments/assets/11ca33e1-3acc-4314-af37-2aa7e385bd2c)
+
+
+---
+
+##  Why EvoSec?
+
+<div align="left">
+
+![test2](https://github.com/user-attachments/assets/7388aa89-6603-4772-b960-438a4a78339b)
+
+EvoSec combines enterprise-grade infrastructure, AI-driven automation, and security making it ideal for professional research and educational use.
+
 </div>
 
----
-
-> [!NOTE]  
-> Engineered with enterprise-grade precision and fully documented hardware, software, and network operations.
-> 
-> All sensitive credentials and full network details are obfuscated or excluded to protect operational security.
-
----
-
-<details open>
-<summary><strong>Table of Contents</strong></summary>
-
-1. [Key Highlights](#key-highlights)  
-2. [Lab Overview & Platform](#lab-overview--platform)  
-    - [Compute & Storage](#compute--storage)  
-    - [Network & OOB Management](#network--oob-management)  
-    - [Security & SOC Node](#security--soc-node)  
-3. [System Architecture & Qubes OS Integration](#system-architecture--qubes-os-integration)  
-4. [Logical Architecture & Zones](#logical-architecture--zones)  
-5. [Professional Impact](#professional-impact)  
-6. [100% Solo Operator](#100-solo-operator)  
-
-</details>
-
----
-
-## **Key Highlights**
-- **Enterprise-Grade Simulation** — Hardware and network topology mirror real production environments with realistic workloads.  
-- **Project Controls Workflows** — Formalized processes for planning, monitoring, and documenting IT and network operations.  
-- **Security Experimentation** — Deployment of honeypots, tar pits, and network monitoring for safe adversarial testing.  
-- **Automation & Orchestration** — LLM + SaltStack dynamically manage VM placement, firewall rules, and honeypot activation.  
-- **Isolated Testing Environment** — Fully contained lab for experimentation, mitigating risk to any external or production systems.  
-- **Thorough Documentation** — Diagrams, notes, and procedures ensure repeatability, transparency, and operational clarity.
-
----
-
-## **Lab Overview & Physical Platform**
-This section integrates hardware, software, and operational details into a cohesive overview, highlighting all major components in the environment.
-
-<details open>
-<summary><em> Component list, specifications, and operational status</em></summary>
-
-| Component        | Specification                            | Description                                                                 | Status |
-|-----------------|-----------------------------------------|----------------------------------------------------------------------------|--------|
-| **Compute Node (R710)**   | Dell R710, dual Xeon, 128GB RAM | Runs **Qubes OS** as the primary experimental hypervisor for multi-domain security isolation (AppVMs for management, honeypots, and guest domains). | 🟦 Secure & Isolated |
-| **Primary Storage (EqualLogic + Avid Bay)** | Dual EqualLogic FS7610 + Avid 18-bay chassis | Runs **Proxmox VE** to host storage-centric VMs, containers, and orchestration services. Provides redundant, high-performance iSCSI/NFS storage for all lab workloads. | 🟩 Operational & Stable |
-| **Core Switch**  | Dell X1052P — 52-port VLAN trunking | Layer 2 central switch managing VLAN segmentation, PoE, and high-throughput traffic. | 🟩 Active |
-| **Perimeter Firewall** | Cisco ASA 5510/5515-X + SonicWall SRA 4200 | Security boundary with adaptive firewalling, VPN, intrusion prevention, and multi-zone segmentation. | 🟩 Hardened & Secure |
-| **SOC Node**     | Panasonic Toughbook → SELKS + Suricata | Real-time monitoring, ELK stack integration, IDS/IPS, and DPI analysis. | 🟧 Live DPI Active |
-| **Out-of-Band Management** | OpenGear CM4148 + Rack KVM + HP TFT5600 | Remote access, serial console switching, KVM-over-IP for all rack devices. | 🟩 Always Accessible |
-| **Patch Panels & Cabling** | Standard 24/48-port panels | Structured cabling for connectivity, redundancy, and isolation. | 🟩 Fully Installed |
-| **Lab Workstation** | Desktop PC + monitors | Administrative orchestration and monitoring of the lab environment. | 🟩 Operational |
-| **Honeypot Nodes** | Virtualized in Qubes OS AppVMs | Attack surface simulation for IDS/IPS validation. | 🟧 Active |
-
-</details>
-
-
-### **Compute & Storage**
-
-<details open>
-  
-<summary><em> </em></summary>  
-
-- **Dell R710** runs **Qubes OS**, isolating all workloads into AppVMs for management, lab experimentation, honeypots, and guest domains.  
-- **EqualLogic FS7610 + Avid 18-bay chassis** run **Proxmox VE**, hosting storage-heavy VMs, orchestration, and containerized workloads.  
-- This dual-hypervisor approach separates **compute isolation (Qubes OS)** from **storage orchestration (Proxmox VE)**, maximizing security while maintaining performance.
-
-</details>
-
-
-### **Network & OOB Management**
-
-<details open>
-  
-<summary><em> </em></summary>  
-  
-- Dell X1052P handles all VLAN segmentation and high-throughput traffic.  
-- Patch panels and structured cabling maintain clean, redundant connectivity.  
-- Out-of-band access via OpenGear CM4148 and Rack KVM ensures management during network outages.
-
-</details>
-
-
-### **Security & SOC Node**
-
-<details open>
-  
-<summary><em> </em></summary>  
-  
-- Panasonic Toughbook running SELKS + Suricata provides real-time monitoring, intrusion detection, and ELK integration.  
-- SaltStack orchestrates dynamic VM placement, firewall adjustments, and honeypot activation across both Proxmox and Qubes OS domains.  
-- LLM-driven analytics interpret logs, anticipate threats, and reconfigure the network in real time.
-  
-</details>
-
-
----
-
-## **System Architecture & Qubes OS Integration**
-<div align="center">
-  <img src="/assets/animations/lab-operations.gif" alt="Lab Operations Animation" width="100%"/>
-</div>
-
-- **Proxmox VE** runs on EqualLogic + Avid hardware to host storage and containerized services.  
-- **Qubes OS** runs on R710 to isolate experimental workloads securely.  
-- SaltStack coordinates VM orchestration across Proxmox and Qubes domains, ensuring dynamic security responses and workload placement.  
-- AppVMs in Qubes separate workloads by trust: management, lab, guest, and honeypot domains.  
-- LLM-driven analytics analyze logs and adjust the environment automatically to mitigate threats and optimize performance.
-
----
-
-## **Logical Architecture & Zones**
-<div align="center">
-  <img src="/assets/photos/diagram.svg" alt="System Architecture Diagram" width="100%"/>
-</div>
-
-| Zone       | Trust     | Color  | Purpose                              |
-|------------|-----------|--------|--------------------------------------|
-| Management | Highest   | 🔵 Blue | Administrative consoles & critical assets |
-| Core       | High      | 🟢 Green | Proxmox VMs & Qubes R710 workloads   |
-| DMZ        | Medium    | 🟡 Yellow| Controlled exposure & service testing |
-| Lab        | Medium    | 🟠 Orange| General experimental workloads        |
-| Honeypots  | Low       | 🔴 Red   | IDS/IPS bait & attack simulation      |
-| Guest      | Lowest    | ⚫ Black | Untrusted devices & code testing      |
-
----
-
-## **Professional Impact**
-| Discipline                | Skills & Experience Demonstrated                                    |
-|---------------------------|---------------------------------------------------------------------|
-| **Network Engineering**    | VLAN design, ASA object-group mastery, L2/L3 architecture, zone-based routing |
-| **Security Engineering**   | Honeypot deployment, Suricata IDS tuning, zero-trust enforcement, tar pits |
-| **SRE / Platform Engineering** | Observability, HA, DR planning, reproducibility, full-stack orchestration |
-| **DevOps & Automation**    | SaltStack orchestration, config-as-code, Qubes OS AppVM management |
-| **Technical Leadership**   | End-to-end ownership, workflow optimization, risk-aware system design |
-| **Research & Innovation**  | Experimentation with dynamic orchestration, honeypot automation, LLM integration |
-
----
-
-## **100% Solo Operator**
-Every component, configuration, and line of Markdown was completed by **one human**:
-
-- Refurbished and integrated all enterprise hardware.  
-- Built and configured Proxmox, Qubes OS, ASA, SonicWall, SELKS, and Suricata.  
-- Authored all diagrams, documentation, and runbooks.  
-- Continuously adding features, expanding lab operations, and integrating automation.
-
-<p align="center">
-  <strong>Built with precision.<br>Documented with obsession.<br>Operated with fire.</strong>
-  <br><br>
-  <img src="https://img.shields.io/badge/Level-Over_9000-ff0066?style=for-the-badge&logo=dependabot"/>
-  <br><br>
-  <a href="#evosec-lab">Back to Top</a>
-</p>
