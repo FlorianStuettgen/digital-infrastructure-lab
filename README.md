@@ -98,10 +98,10 @@ EvoSec is built around a multi-layered zero-trust security model, combining segm
 EvoSec is a smart lab orchestration platform that leverages AI, machine learning, and DevOps to automate, optimize, and secure research environments. It continuously monitors system status and network traffic, providing real-time optimization, intelligent threat detection, and automated responses.
 Core capabilities include dynamic network configuration, adaptive honeypot-based deception, and event-driven anomaly detection, enabling researchers to study threats while maintaining integrity. 
 
-QubesOS is utilized for secure, compartmentalized experimentation and SaltStack for advanced configuration management and automated provisioning.
+QubesOS is utilized for secure, compartmentalized experimentation, and SaltStack for advanced configuration management and automated provisioning.
 Supporting automated deployment, updates, scaling, adaptive experiments, and predictive maintenance, the system enhances control and efficiency while AI automation ensures secure, responsive, and adaptable lab infrastructure.
 
-The system delivers granular observability across infrastructure, apps, and network by collecting metrics such as CPU, memory, storage I/O, and network traffic deep packet inspection for detailed analysis and interpretation: 
+The system delivers granular observability across infrastructure, apps, and network by collecting metrics such as CPU, memory, storage I/O, and network-traffic deep packet inspection for detailed analysis and interpretation: 
 
 <div align="center">
 
