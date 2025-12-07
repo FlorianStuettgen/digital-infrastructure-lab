@@ -1,6 +1,6 @@
 # 06 – Monitoring & Telemetry
 
-Observability is core to EvoSec. Metrics and logs are collected at multiple layers to enable deep insight into activity and threats.
+Observability is core to SOC_Replay. Metrics and logs are collected at multiple layers to enable deep insight into activity and threats.
 
 ## Monitoring Layers
 
