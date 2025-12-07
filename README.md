@@ -122,7 +122,7 @@ By bringing together data from multiple sources, SOC_Replay turns raw informatio
 
 ## Why SOC_Replay?
 
-SOC_Replay combines enterprise-grade infrastructure, AI-automation & security for professional research and education.
+SOC_Replay combines enterprise-grade infrastructure, AI-automation & security for research and education.
 
 As of December 2025, SOC_Replay is now fully operational!
 
