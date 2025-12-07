@@ -1,6 +1,6 @@
 # 03 – Software Stack
 
-EvoSec combines virtualization, containerization, orchestration, IaC, monitoring, logging, and automation tooling to deliver a flexible, secure lab environment.  
+SOC_Replay combines virtualization, containerization, orchestration, IaC, monitoring, logging, and automation tooling to deliver a flexible, secure lab environment.  
 
 ## Components & Tools
 
